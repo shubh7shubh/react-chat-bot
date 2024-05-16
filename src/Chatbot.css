@@ -1,0 +1,137 @@
+/* .chat-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+
+.chat-box {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.chat-box .user,
+.chat-box .chatgpt {
+    margin-bottom: 10px;
+}
+
+.chat-box .user strong {
+    color: blue;
+}
+
+.chat-box .chatgpt strong {
+    color: green;
+}
+
+input[type="text"] {
+    width: calc(100% - 80px);
+    padding: 10px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.chat-container {
+    position: relative;
+}
+
+.chatbot-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+} */
+
+
+
+
+
+
+
+
+
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* .chat-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+} */
+
+.chatbot-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 70px;
+    /* Adjust this value as needed */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.chat-box {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 300px;
+    /* Adjust this value as needed */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 70px;
+    /* Adjust this value as needed */
+    overflow-y: auto;
+}
+
+input[type="text"] {
+    width: calc(100% - 60px);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}
